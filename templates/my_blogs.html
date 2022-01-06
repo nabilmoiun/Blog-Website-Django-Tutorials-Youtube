@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} My Blogs {% endblock title %}
+
+{% block content %}
+
+<section class="my-blogs">
+    <div class="container-fluid">
+        <div class="row py-5">
+          {% if messages %}
+          <div class="col-md-12 py-2">
+            {% include 'message.html' %}
+          </div>
+          {% endif %}
+          {% for blog in blogs %}
+            <div class="col-md-4 my-2">
+                <div class="card">
+                    <img class="card-img-top img-fluid" style="width: 100%; height: 320px;" src="{{blog.banner.url}}" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text d-flex flex-row">
+                        {{blog.title|truncatechars:15}}
+                        <a class="px-2 ml-auto" href="{% url 'update_blog' blog.slug %}">
+                          <i class="fa fa-edit"></i>
+                        </a>
+                        <a class="px-2" href="?delete={{blog.pk}}">
+                          <i class="fa fa-trash text-danger"></i>
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+        {% endfor %}
+        </div>
+        <div class="row py-2 justify-content-center">
+          <div class="col-md-8">
+            {% include 'pagination.html' %}
+          </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock content %}

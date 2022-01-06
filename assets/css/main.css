@@ -1,0 +1,84 @@
+.empty-heart {
+    color: #CDCDCD !important;
+}
+
+.blog-posts .submit-comment textarea {
+    text-transform: none !important;
+}
+
+.submit-reply textarea {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #eee;
+    font-size: 13px;
+    text-transform: none;
+    font-weight: 500;
+    color: #7a7a7a;
+    outline: none;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    height: 180px;
+    max-height: 220px;
+    max-width: 100%;
+    min-width: 160px;
+}
+
+.reply-button {
+    display: inline-block;
+    background-color: #f48840;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    transition: all .3s;
+    border: none;
+    outline: none;
+}
+
+.fa-heart {
+    color: red !important;
+}
+.empty-heart {
+    color: #CDCDCD !important;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #f48840;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    transition: all .3s;
+    border: none;
+    outline: none;
+}
+
+.errorlist {
+    color: red !important;
+    padding-bottom: 10px !important;
+}
+
+.contact-us .contact-form input {
+    margin-bottom: 10px !important;
+}
+
+input, textarea {
+    text-transform: none !important;
+}
+
+.profile-picture {
+    max-width: 100%;
+    width: 180px;
+    height: 180px;
+}
+
+.owl-banner {
+    padding: 47px !important;
+}
+
+.owl-carousel .owl-item img {
+    height: 440px !important;
+}
