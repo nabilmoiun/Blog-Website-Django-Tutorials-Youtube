@@ -58,7 +58,7 @@ Finally, you have to make migrations to get the app started and create a new sup
 So run the following commands as follows:
 
     $ python manage.py migrate
-    $ python manage.py createsuperuser --user <username> --email <email>
+    $ python manage.py createsuperuser
 
 So after successful completion of these you are ready to run the application by the following command:
 
