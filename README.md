@@ -40,13 +40,23 @@ Now create you own virtual environment here and install the project required pac
 
 Activate the virtual environment by the following command:
 
-***On Windows***
-    
-    $ source venv_name/Scripts/activate  # Using Git Bash
-    
+
 ***On Linux***
 
     $ source venv_name/bin/activate
+    
+***On Windows***
+
+If you are using git bash
+
+    $ source venv_name/Scripts/activate
+    
+If you are using CMD
+
+    $ cd venv_name/Scripts
+    $ activate
+    $ cd ../../
+    
     
 Now install the package requirements by:
 
