@@ -27,8 +27,8 @@ Usage
 
 First clone this repo and go to the project root.
 
-    $ git clone https://github.com/MoinulHossainNabil/YT_Blog.git
-    $ cd YT_Blog
+    $ git clone https://github.com/MoinulHossainNabil/Blog-Website-Django-Tutorials-Youtube.git
+    $ cd Blog-Website-Django-Tutorials-Youtube
 
 I would recommend to work on a virtual environment. I have used ***virtualenv*** package to create a virtual environment you may wanna use other package. So install this as well if you already haven't.
 
